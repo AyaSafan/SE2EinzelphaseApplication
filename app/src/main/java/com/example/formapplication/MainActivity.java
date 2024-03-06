@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                             Log.d("MyApp", "Receiving data: " + response);
 
                             // Update the UI
-                            runOnUiThread(() -> outputField.setText(response));
+                            runOnUiThread(() -> outputField.setText("Server Result: " + response));
 
                             // Close the connection
                             socket.close();
