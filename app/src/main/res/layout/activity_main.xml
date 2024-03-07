@@ -58,7 +58,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Server Submit"
-                android:layout_marginTop="16dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"/>
 
@@ -68,7 +67,6 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Calculate"
-                android:layout_marginTop="16dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"/>
         </LinearLayout>
